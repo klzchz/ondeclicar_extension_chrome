@@ -7,8 +7,8 @@
       },
       "content_scripts": [ 
         { 
-            "js": [ "js/app.js", "js/jquery.js"], 
-            "css":["css/bootstrap.css"],
+            "js": [ "js/app.js", "js/jquery.js","js/font-awesome.js"], 
+            "css":["css/bootstrap.css","css/font-awesome.css"],
             "matches": [ "http://*/*", "https://*/*"] 
             
         }
