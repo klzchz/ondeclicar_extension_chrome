@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.css">
 
-    <script src="js/jquery.js"></script>
-    <script src="js/font-awesome.js"></script>
-    <script src="js/xapp.js" ></script>
+    <script src="js/jquery.js"></script> 
+     <script src="js/font-awesome.js"></script>
+ 
     
    
     
@@ -19,9 +19,23 @@
     
   </head>
   <body> 
-        <div class="container" style="width: 300px;margin:15px;">
+         <div class="container" style="width: 300px;margin:15px;">
           <div class="row">
-                <div class="card " style="width: 18rem;">
+
+          <div class="">
+            <h6 class="text-center">Type your favorite Tv Series</h6><br/>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" name="serie" id="serie" placeholder="Ex: This is us">
+              <div class="input-group-prepend">
+                <button id="search" class="btn btn-success"><i class="fas fa-star"></i> Search </button> 
+              </div>
+                
+            </div>
+
+          </div>
+
+
+            <div class="card" id="card" style="width: 18rem;">
                     
                       <img class="card-img-bottom" height="200px;" src="https://m.media-amazon.com/images/M/MV5BMDM2YTMzMWMtNmFhZi00ZWY4LTk1ZmUtMWExNzg3NDZmMTY4XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SX300.jpg" alt="Imagem de capa do card">
                       
@@ -37,11 +51,11 @@
                     <button style="border-radius: 30px;" class="btn btn-primary btn-block"><b><i class="fas fa-asterisk"></i> See Details</b></button>
                   </div>
                   
-                </div>
+              </div>
            
           </div>
-        </div>
-  
+        </div> 
+        <script src="js/xapp.js" ></script>
 
   </body>
 </html>

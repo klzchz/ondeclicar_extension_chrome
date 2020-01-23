@@ -6,13 +6,13 @@
         "default_popup": "popup.html"
       },
       "content_scripts": [ 
-        { 
+        {    
+          "matches": [ "http://*/*", "https://*/*","<all_urls>"], 
             "js": [ "js/jquery.js","js/font-awesome.js","js/axios.js", "js/xapp.js"], 
-            "css":["css/bootstrap.css","css/font-awesome.css"],
-            "matches": [ "http://*/*", "https://*/*","http://www.google.com/*"] 
-            
+            "css":["css/bootstrap.css","css/font-awesome.css"] 
         }
     ],
+      
     "manifest_version": 2
     
 

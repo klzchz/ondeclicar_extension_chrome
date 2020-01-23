@@ -1,6 +1,8 @@
 
     
 $('#title').append('This is us');
+
+$(".card").hide();
     // $.ajax({
     //     type: "method",
     //     url: "url",
