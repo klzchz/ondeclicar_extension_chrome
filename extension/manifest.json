@@ -1,9 +1,14 @@
 {
-    "name": "JL- Extension",
+    "name": "OndeClicar",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "This is a open source project who help addicted people a watch tv series and movies with high score on Imdb without google it everytime !",
     "browser_action": {
         "default_popup": "popup.html"
+      },
+      "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+       "128": "icon.png" 
       },
       "permissions":["tabs","http://*/*", "https://*/*","https://github.com/"],
       "background": [ 

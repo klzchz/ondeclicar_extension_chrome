@@ -1,6 +1,6 @@
 
     
-$('#title').append('This is us');
+$('#title').append('This Is Us');
 
 $(".card").hide();
 
