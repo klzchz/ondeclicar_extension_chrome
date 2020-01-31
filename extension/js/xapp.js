@@ -8,7 +8,9 @@ $("#loader-wrapper").removeAttr("style").hide();
 // $('#loader-wrapper').attr({display:none});
 $(".card").hide();
 
-$('body').on('click','#search',function(){
+$('body').on('click','#search',function(e){
+    e.preventDefault();
+    
     $("#loader-wrapper").show();
     let data = $('#serie').val();
     
@@ -42,6 +44,19 @@ $('body').on('click','#search',function(){
             $("#search-box").hide();
             $(".card").show();
     });
+});
+
+$('#clean').on('click',function(){
+    $('#title').html('');
+    $('#poster').attr('src','');
+    $('#description').html('');
+    $('#imdb').html('');
+    $('#global').html('');
+
+    $("#search-box").show();
+    $(".card").hide();
+  
+
 });
     // $.ajax({
     //     type: "method",
